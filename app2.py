@@ -24,8 +24,8 @@ with st.form("search_form"):
     today = datetime.date.today()
     five_years_ago = today.replace(year=today.year - 5)
 
-    from_date = st.date_input("開始日", value=five_years_ago, format="YYYY-MM-DD")
-    to_date = st.date_input("終了日", value=today, format="YYYY-MM-DD")
+    from_date = st.date_input("国会議事録検索_開始日", value=five_years_ago, format="YYYY-MM-DD")
+    to_date = st.date_input("国会議事録検索_終了日", value=today, format="YYYY-MM-DD")
 
     submitted = st.form_submit_button("検索して分析")
 
