@@ -14,7 +14,7 @@ genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel("models/gemini-1.5-flash")
 
 # タイトル
-st.title("政治家の発言を生成AIで分析")
+st.title("国会議事録_AI分析")
 
 # 入力フォーム
 with st.form("search_form"):
