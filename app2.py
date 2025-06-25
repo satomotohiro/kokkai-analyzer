@@ -71,7 +71,7 @@ if submitted:
                             result = model.generate_content(prompt)
                             ai_summary = result.text.strip()
                     
-                            st.subheader("🧠 生成AIによる分析結果（簡潔要約）")
+                            st.subheader("🤖 生成AIによる分析結果（簡潔要約）")
                             st.markdown(ai_summary)
                     
                             st.subheader("📚 根拠となる発言抜粋")
